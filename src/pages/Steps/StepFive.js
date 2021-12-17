@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DayImgDate from '../../Components/DayImgDate';
 import Slide from '../../Components/Slide';
 import { data } from '../../Data/data.json';
-import { beforeIcon, afterIcon, fivePage } from '../../assets';
+import { afterIcon, fivePage, back } from '../../assets';
 import Header from '../../Components/Header';
 
 const StepFive = () => {
@@ -45,7 +45,7 @@ const StepFive = () => {
               counter <= 0 ?
                 ''
                 :
-                <img src={beforeIcon} onClick={before} className='buttonBefore' alt='icon before' />
+                <img src={back} onClick={before} className='buttonBefore' alt='icon before' />
             }
             {
               counter < 12 ?

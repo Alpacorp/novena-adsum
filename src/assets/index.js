@@ -36,6 +36,7 @@ import onOff from '../assets/brands/on-off.svg';
 import backgroundRicofru from '../assets/components/background_ricofru.jpg';
 import adsumRedes from '../assets/brands/adsum-redes.svg';
 import adsum from '../assets/brands/adsum.svg';
+import back from '../assets/components/botonvolver.svg';
 
 export {
   one,
@@ -75,5 +76,6 @@ export {
   onOff,
   backgroundRicofru,
   adsumRedes,
-  adsum
+  adsum,
+  back
 }
