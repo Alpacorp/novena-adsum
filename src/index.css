@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Quicksand&display=swap');
+
+* {
+  font-family: 'Patrick Hand', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  background-image: url('./assets/brands/background_adsum.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

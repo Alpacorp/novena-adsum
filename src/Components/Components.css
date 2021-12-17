@@ -1,0 +1,107 @@
+.header {
+  background-image: url('../assets/components/header_full_adsum.jpg');
+  height: 80px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+  background-size: cover;
+  text-align: center;
+}
+
+.back {
+  width: 50px;
+  margin: 22px 0;
+  animation: pulso 2s infinite;
+}
+
+@keyframes pulso {
+  from {transform: none;}
+  50% {transform: scale(1.08);}
+  to {transform: none;}
+}
+
+.brandZone .brandLogo {
+  margin: 0 20px;
+}
+
+.brandLogo {
+  text-align: center;
+  margin: 30px 20px 0 20px;
+}
+
+.brandLogo img {
+  max-height: 150px;
+}
+
+.slide p {
+  font-size: 15px;
+  color: #439555;
+  margin: 5px;
+  ;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-image: url('../assets/components/footer.svg');
+  background-repeat: no-repeat;
+  height: 230px;
+  width: 100%;
+  background-position: right;
+  mix-blend-mode: multiply;
+  z-index: 0;
+}
+
+.footer p {
+  position: relative;
+  text-align: center;
+  bottom: -200px;
+  color: #BCC585;
+}
+
+.introModal {
+  background: #FCF5EF;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  animation: 1s;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.introModal .introContent {
+  margin: 50px;
+}
+
+.decorUp img {
+  height: 200px;
+}
+
+.familyImage img {
+  height: 200px;
+}
+
+.introModal .novenaImage {
+  margin-top: 50px;
+}
+
+.introModal .brandLogo {
+  margin: 0 0 20px 0;
+}
+
+@media screen and (min-width: 800px) {
+  .introModal .novenaImage img {
+    height: 100px;
+  }
+  .mainMenu .menuOption img {
+    width: 100px;
+  }
+}

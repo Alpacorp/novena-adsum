@@ -1,0 +1,134 @@
+.calendar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px 0;
+  z-index: 1;
+}
+
+.calendar img {
+  width: 71px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.steps {
+  margin: 30px;
+  text-align: center;
+}
+
+.steps .dayImg img {
+  height: 75px;
+  width: 75px;
+  -webkit-box-shadow: 0px 0px 32px 3px rgba(0,0,0,0.23);
+  -moz-box-shadow: 0px 0px 32px 3px rgba(0,0,0,0.23);
+  box-shadow: 0px 0px 32px 3px rgba(0,0,0,0.23);
+}
+
+.steps h2 {
+  font-size: 20px;
+}
+
+.steps .stepText {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  height: 270px;
+  overflow: auto;
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 2;
+}
+
+.stepText p {
+  margin: 10px 0;
+  line-height: 23px;
+}
+
+.stepText .gozos {
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 18px;
+  margin: 0;
+}
+
+.steps small {
+  color: brown;
+  font-size: 13px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.steps .sings {
+  position: relative;
+  width: 250px;
+  text-align: center;
+  margin: 20px auto;
+  z-index: 1;
+}
+
+.steps .sings a {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+#green {
+  background-color: #439555;
+}
+
+#clearGreen {
+  background-color: #BCC585;
+  color: #439555;
+}
+
+#red {
+  background-color: #CA3029;
+}
+
+#orange {
+  background-color: #E9AE3D;
+}
+
+#brown {
+  background-color: #C3893E;
+}
+
+#orangeAdsum {
+  background-color: #FF7110;
+}
+
+#grayAdsum {
+  background-color: #706F71;
+}
+
+.buttons {
+  text-align: center;
+  position: relative;
+  bottom: -50px;
+}
+
+.buttonBefore, .buttonAfter{
+  height: 50px;
+  text-align: center;
+  animation: pulso 2s infinite;
+  margin: 0 10px;
+}
+
+@keyframes pulso {
+  from {transform: none;}
+  50% {transform: scale(1.2)}
+  to {transform: none;}
+}
+
