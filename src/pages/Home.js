@@ -24,7 +24,7 @@ const Home = () => {
             <FacebookIcon />
           </a>
           <a
-            href="https://www.youtube.com/channel/UC1_Gb9BOekEQtHgQvsG73IA"
+            href="https://www.youtube.com/@HeimcoreTechfrominside"
             target="_blank"
             rel="noopener noreferrer"
           >
