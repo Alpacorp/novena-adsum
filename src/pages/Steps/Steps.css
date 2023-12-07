@@ -119,6 +119,11 @@
   bottom: -50px;
 }
 
+.containerButton {
+  border: none;
+  background: none;
+}
+
 .buttonBefore, .buttonAfter{
   height: 50px;
   text-align: center;
